@@ -1,0 +1,113 @@
+1. CSS
+
+CSS or styling can be applied to react application via various method. Which are listed below:
+1. Vanilla JS
+
+We can use vanilla JS So for a example create index.css and import it in App.jsx file
+eg: import './index.css'
+
+If we follow this pattern the only aspect is style/css is appplied globally. So if I set a rule for paragarph using element selector like this
+
+p{
+    text-align:'center'
+}
+
+In complete application paragraph text will be aligned to center.
+
+2. Using Inline style:
+
+We can use inline styling in the component jsx eg:
+
+<h1>
+    <p style ={{textAlign:'center'}} >
+<h1>
+
+Style attribute take object as input and we can provide dynamic value using js as we want. If we apply style in such manner the style is scoped to appllied element.
+
+3. Using className
+
+We can add class name to the jsx code. Example can be checked below:
+<h1>
+    <p className = `paragraph ${'a'=='a'?'para1':''}` >
+<h1>
+
+Note: Used backticks for dynamic string generation.
+
+4. Using css module.
+
+Using this way there can never be conflict of css rule even if two paragraph holds same class name. Lets see below how it can be achived.
+file name index.module.css with rule
+.paragraph{
+    'text-align': 'center'
+}
+
+Now suppose we have two component both using same class name but in the class we want to segerate it and apply it knowling we can do the same
+
+in the component in which we want to apply.
+App.jsx
+import classes from './index.module.css'
+<h1>
+    <p className = {classes.paragraph} >
+<h1>
+CSS classes scoped to component.
+Underlying processing: Build tool convert such css rule and gives a unique id to that rule so if we see the same rule by inspecting we would see className which would be applied actually has some number and hash appended with paragraph. This way it safeguards other component (which are using same classname) and scoped only to the applied component. All thanks to css module.
+
+
+2. Styled-component:
+
+import {styled}  from 'styledcomponent'
+
+const ControlContainer =  styled.div`
+    display: 'flex';
+    gap: 0.5 rem;
+`
+Note: This is js tagged template functionality
+So now we can use this as container
+
+<ControlContainer>
+        <h1> Some Heading <h1>
+</ControlContainer>
+
+it is same as
+.divclass{
+    display: 'flex';
+    gap: 0.5 rem;
+}
+<div className='divclass'>
+    <h1> Some Heading <h1>
+<div>
+
+Conditional redenring using styled component:
+.divclass{
+const ControlContainer =  styled.div`
+    display: ${({invalid}=>{
+        invalid?'flex': 'block'
+    })};
+    gap: 0.5 rem;
+`
+<ControlContainer invalid ={true} >
+        <h1> Some Heading <h1>
+</ControlContainer>
+
+Props passed from  ControlContainer is sent too ControlContainer and dispay value is evaluated dynamically using that value.
+
+We can use child styling too using styled component for example.
+
+const ControlContainer =  styled.div`
+    display: ${({invalid}=>{
+        invalid?'flex': 'block'
+    })};
+    gap: 0.5 rem;
+
+    & h1{
+        some style
+    }
+
+    & p1{
+        some style
+    }
+`
+
+This way using & with space we can direct ControlContainer that h1 and p1 within div should used provided styling property
+& with space tells about child without space it point to same element exaple &:hover will apply hover property to div itself.
+
