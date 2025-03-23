@@ -1,9 +1,61 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="PraO4QhkprzTnewF_Pbc">
-    <mxGraphModel>
+    <mxGraphModel dx="1781" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LbiN2e_Bt8mS2dcqYEek-1" target="LbiN2e_Bt8mS2dcqYEek-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LbiN2e_Bt8mS2dcqYEek-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-1" value="10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LbiN2e_Bt8mS2dcqYEek-2" target="LbiN2e_Bt8mS2dcqYEek-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-2" value="12" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="218" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LbiN2e_Bt8mS2dcqYEek-4" target="LbiN2e_Bt8mS2dcqYEek-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-4" value="11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="218" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LbiN2e_Bt8mS2dcqYEek-5" target="LbiN2e_Bt8mS2dcqYEek-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-5" value="13" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-6" value="14" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-7" value="15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-8" value="16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LbiN2e_Bt8mS2dcqYEek-4" target="LbiN2e_Bt8mS2dcqYEek-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-19" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;if&lt;/span&gt;(root==&lt;span style=&quot;color:#cf8e6d;&quot;&gt;null&lt;/span&gt;)&lt;br&gt;    &lt;span style=&quot;color:#cf8e6d;&quot;&gt;return&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;if&lt;/span&gt;(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;right&lt;/span&gt;==&lt;span style=&quot;color:#cf8e6d;&quot;&gt;null &lt;/span&gt;&amp;amp;&amp;amp; root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;left&lt;/span&gt;==&lt;span style=&quot;color:#cf8e6d;&quot;&gt;null&lt;/span&gt;){&lt;br&gt;    System.&lt;span style=&quot;color:#c77dbb;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;value&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color:#cf8e6d;&quot;&gt;return&lt;/span&gt;;&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;if&lt;/span&gt;(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;left &lt;/span&gt;!=&lt;span style=&quot;color:#cf8e6d;&quot;&gt;null&lt;/span&gt;){&lt;br&gt;    inorder(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;left&lt;/span&gt;);&lt;br&gt;}&lt;span style=&quot;color:#cf8e6d;&quot;&gt;else&lt;/span&gt;{&lt;br&gt;    System.&lt;span style=&quot;color:#c77dbb;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;value&lt;/span&gt;);&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;if&lt;/span&gt;(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;right&lt;/span&gt;!=&lt;span style=&quot;color:#cf8e6d;&quot;&gt;null&lt;/span&gt;){&lt;br&gt;    inorder(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;right&lt;/span&gt;);&lt;br&gt;}&lt;span style=&quot;color:#cf8e6d;&quot;&gt;else&lt;/span&gt;{&lt;br&gt;    System.&lt;span style=&quot;color:#c77dbb;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(root.&lt;span style=&quot;color:#c77dbb;&quot;&gt;value&lt;/span&gt;);&lt;br&gt;}&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="450" width="200" height="310" as="geometry" />
+        </mxCell>
+        <UserObject label="public void inorder(BSTTree&lt;T&gt; root) {&#xa;    if (root == null) {&#xa;        return;&#xa;    }&#xa;&#xa;&#xa;    inorder(root.left); // Visit left subtree&#xa;    System.out.println(root.value); // Print root&#xa;    inorder(root.right); // Visit right subtree&#xa;}" link="public void inorder(BSTTree&lt;T&gt; root) {&#xa;    if (root == null) {&#xa;        return;&#xa;    }&#xa;&#xa;&#xa;    inorder(root.left); // Visit left subtree&#xa;    System.out.println(root.value); // Print root&#xa;    inorder(root.right); // Visit right subtree&#xa;}" id="LbiN2e_Bt8mS2dcqYEek-20">
+          <mxCell style="text;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="435" y="480" width="270" height="170" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="LbiN2e_Bt8mS2dcqYEek-21" value="Inorder&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="358" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
